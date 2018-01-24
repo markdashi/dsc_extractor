@@ -14,12 +14,14 @@
 
 ```
 cd dsc_extractor // cd到dsc_extractor文件夹下
+
 ./dsc_extractor  xx  oo // xx 是指待抽取的共享缓存库文件名  oo 是指待输出的文件夹
 
 ```
 或者你输入 ./dsc_extractor 会打印出你需要拼接的参数
 ```
 usage: dsc_extractor <path-to-cache-file> <path-to-device-dir>
+
 ```
 
 上述文件如果需要在不指定路径下执行，可以 `cp dsc_extractor /usr/bin or /usr/local/bin  `
@@ -29,6 +31,7 @@ usage: dsc_extractor <path-to-cache-file> <path-to-device-dir>
 
 # Installation
 ```
+
 git clone https://github.com/markdashi/dsc_extractor.git
 
 ```
